@@ -1,7 +1,7 @@
 
 |Logo|
 
-|pypi| |conda| |Travis Status| |CircleCI Status| |binder| |gitter| |Zenodo DOI|
+|pypi| |conda| |binder| |gitter| |Zenodo DOI|
 
 Scikit-Optimize
 ===============
@@ -49,13 +49,13 @@ scikit-optimize requires
 You can install the latest release with:
 ::
 
-    pip install scikit-optimize
+    pip install ts-scikit-optimize
 
 This installs an essential version of scikit-optimize. To install scikit-optimize
 with plotting functionality, you can instead do:
 ::
 
-    pip install 'scikit-optimize[plots]'
+    pip install 'ts-scikit-optimize[plots]'
 
 This will install matplotlib along with scikit-optimize.
 
@@ -122,8 +122,8 @@ The development version can be installed through:
 
 ::
 
-    git clone https://github.com/scikit-optimize/scikit-optimize.git
-    cd scikit-optimize
+    git clone https://github.com/khulnasoft-lab/ts-scikit-optimize.git
+    cd ts-scikit-optimize
     pip install -e.
 
 Run all tests by executing ``pytest`` in the top level directory.
@@ -189,15 +189,11 @@ If your employer allows you to work on scikit-optimize during the day and would 
 recognition, feel free to add them to the "Made possible by" list.
 
 
-.. |pypi| image:: https://img.shields.io/pypi/v/scikit-optimize.svg
+.. |pypi| image:: https://img.shields.io/pypi/v/ts-scikit-optimize.svg
    :target: https://pypi.python.org/pypi/scikit-optimize
 .. |conda| image:: https://anaconda.org/conda-forge/scikit-optimize/badges/version.svg
    :target: https://anaconda.org/conda-forge/scikit-optimize
-.. |Travis Status| image:: https://travis-ci.org/scikit-optimize/scikit-optimize.svg?branch=master
-   :target: https://travis-ci.org/scikit-optimize/scikit-optimize
-.. |CircleCI Status| image:: https://circleci.com/gh/scikit-optimize/scikit-optimize/tree/master.svg?style=shield&circle-token=:circle-token
-   :target: https://circleci.com/gh/scikit-optimize/scikit-optimize
-.. |Logo| image:: https://avatars2.githubusercontent.com/u/18578550?v=4&s=80
+.. |Logo| image:: https://avatars2.githubusercontent.com/u/185785ts-scikit-optimize50?v=4&s=80
 .. |binder| image:: https://mybinder.org/badge.svg
    :target: https://mybinder.org/v2/gh/scikit-optimize/scikit-optimize/master?filepath=examples
 .. |gitter| image:: https://badges.gitter.im/scikit-optimize/scikit-optimize.svg
